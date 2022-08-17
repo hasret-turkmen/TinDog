@@ -1,0 +1,162 @@
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat-Bold";
+}
+p{
+  color: #8f8f8f;
+}
+
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  /* alternative way because Montserrat black did not thicken the sentence*/
+  text-shadow: 1.5px 0 White;
+  letter-spacing:1px;
+  font-weight:bolder;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid{
+  padding: 5% 15% 7% 15%;
+}
+.carousel-control-prev{
+  padding-right: 12%;
+}
+.carousel-control-next{
+  padding-left: 12%;
+}
+
+/*cta section*/
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 7% 15% 7% 15%;
+}
+
+.fa{
+  color: #ef8172;
+  margin-bottom: 1.1rem;
+}
+.fa:hover{
+  color: #ff4c68;
+}
+/* nav bar*/
+
+.navbar{
+  padding:0 0 4.5rem 0;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px 0 18px;
+}
+
+.nav-link{
+  font-size: 1.5rem;
+}
+
+/*Download buttons*/
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/*testimonial section */
+#testimonials{
+padding: 7% 15% 7% 15%;
+text-align: center;
+background-color: #ef8172;
+color: white;
+}
+
+.testimonial-image{
+  width: 20%;
+  border-radius: 100%;
+  margin: 15px;
+  padding-bottom: 10px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* title image*/
+
+.title-image{
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+@media screen and (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+
+#features{
+  padding: 7% 15% 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  text-align: center;
+}
+
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.press-logo{
+  width: 12%;
+  margin: 20px 30px 50px 30px;
+}
+
+/*pricing section*/
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2% 3% 2%;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+#footer{
+  text-align: center;
+  padding: 3% 20% 3% 15%;
+}
+
+.social{
+  margin: 15px 10px 15px 10px;
+}
